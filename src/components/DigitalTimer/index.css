@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.bgContainer {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  margin-top: 30vh;
+}
+.imageCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+.middileCard {
+  display: flex;
+  flex-direction: row;
+}
+.run {
+  color: #1e293b;
+  font-size: 15px;
+}
+.timeCard {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 20vh;
+}
+.TimeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timebtns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.icons {
+  height: 4vh;
+}
+.icons2 {
+  height: 5vh;
+  margin-left: 2vh;
+}
+.startParas {
+  font-size: 20px;
+  color: #1e293b;
+  margin-left: 1vh;
+  font-weight: bold;
+  border-width: 0px;
+  background-color: #00d9f5;
+}
+.timepara {
+  color: #0f172a;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+.operation {
+  background-color: #cffcf1;
+  border-width: 0px;
+  border-radius: 0px;
+  margin: 1vh;
+  font-size: 35px;
+  font-weight: 500;
+  color: #0f172a;
+}
+.value {
+  background-color: aqua;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 5vh;
+  width: 60px;
+  display: flex;
+  font-size: 20px;
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+}
+.manageContainer {
+  display: flex;
+  flex-direction: row;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 20px;
+  margin-top: 4vh;
+}
